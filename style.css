@@ -1,0 +1,123 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/ /*FRIGE*/
+
+.container1{
+    justify-items: center;
+}
+.container_frige{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:stretch;
+    width: 50%;
+}
+.food_card{
+    width: 130px;
+    height: 150px;
+    border: 1px solid rgb(81, 81, 81);
+    border-radius: 20px;
+    padding-top: 16px;
+    margin: 5px;
+    justify-items: center;
+    align-content: space-around;
+    
+}
+
+/*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ /*MENU*/ 
+
+.menu{
+    background-color: rgb(109, 109, 109);
+    width: 250px;
+    margin-left: 0px;
+}
+.item{
+    display: flex; 
+    font-size: 18px;
+    align-items: center;
+    color: rgb(220, 227, 233);
+    padding: 10px;
+}
+.item img{
+    margin-right: 15px;
+}
+.item:hover{
+    background-color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+
+
+
+/*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/ /*ASIDE*/
+.container_site{
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.site{
+    font-size: 25px;
+    color:antiquewhite;
+    width: 1000px;
+}
+header, footer{
+    background-color: rgb(133, 80, 107);
+    margin: 10px;
+    padding: 30px;
+}
+nav{
+    background-color: rgb(203, 26, 88);
+    margin: 10px;
+    padding-left: 30px;
+}
+.color{
+    background-color: rgb(226, 62, 120);
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+main, aside{
+    padding:100px;
+}
+
+section{
+    background-color: rgb(255, 154, 189);
+    padding:30px;
+    margin: 10px;
+}
+
+ .right{
+    display: block;
+    justify-items: center;
+ }
+
+ footer{
+    text-align: center;
+    font-size: 10px;
+ }
+
+ .foot_content{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+ }
+
+ .icons{
+    align-content: center;
+    display: flex;
+ }
+
+.background{
+    display: flex;
+   
+}
+ 
+ .icons img:hover{
+    
+ }
